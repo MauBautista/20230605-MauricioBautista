@@ -1,0 +1,23 @@
+    git init
+    git remote add origin https://github.com/MauBautista/20230605-MauricioBautista.git
+    git add .
+    git commit -m "commit 01 de MauricioBautista"
+    git push origin master
+    git branch feature
+    git checkout feature
+    mkdir Hardware
+    mkdir Software
+    mkdir SeguridadInformatica
+    git add .
+    git commit -m "commit 02 de MauricioBautista"
+    git push origin feature
+    git checkout master
+    git mv main.js resumenHardware.txt
+    git mv index.html resumenSoftware.txt
+    git add .
+    git commit -m "commit 03 de MauricioBautista"
+    git push origin master
+    history
+    git add comandos.txt
+    git commit -m "commit 04 de MauricioBautista"
+    git push origin master
